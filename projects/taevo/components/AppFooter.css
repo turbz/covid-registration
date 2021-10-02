@@ -1,0 +1,200 @@
+.App-footer > div:first-of-type {
+  position: relative;
+  height: 100px;
+  overflow: hidden;
+}
+
+.App-footer > div:first-of-type div {
+  position: absolute;
+  width: 107%;
+  height: 150px;
+}
+
+.App-footer > div:first-of-type div:first-of-type {
+  top: 0;
+  left: 0;
+  background-color: rgba(255, 209, 58, 0.4);
+  border-radius: 0 100% 0 0;
+  margin-right: -100px;
+}
+
+.App-footer > div:first-of-type div:last-of-type {
+  top: 0;
+  right: 0;
+  background-color: rgba(241, 97, 98, 0.4);
+  border-radius: 100% 0 0 0;
+}
+
+.App-footer > div:last-of-type {
+  color: #323742;
+  background-color: #fff;
+  padding: 2em 1em 0;
+}
+
+.App-footer > div:last-of-type div {
+  margin-bottom: 3em;
+}
+
+.App-footer > div:last-of-type div:first-of-type ul {
+  height: auto;
+  margin-top: 5em;
+}
+
+.App-footer > div:last-of-type div:first-of-type ul li span:first-of-type {
+  margin-right: 0.5em;
+}
+
+.App-footer > div:last-of-type div:first-of-type ul li {
+  display: flex;
+  width: 100%;
+  margin-bottom: 0.5em;
+}
+
+.App-footer > div:last-of-type div:first-of-type ul li a {
+  margin-bottom: 0;
+}
+
+.App-footer > div:last-of-type div:first-of-type ul li a:first-of-type {
+  margin-right: 0.5em;
+}
+
+.App-footer > div:last-of-type div:first-of-type ul li a:last-of-type {
+  margin-left: 0.5em;
+}
+
+.App-footer > div:last-of-type div:first-of-type img {
+  width: 42px;
+  height: 42px;
+}
+
+.App-footer > div:last-of-type div p {
+  color: #8a8a8a;
+  line-height: 1.7rem;
+}
+
+.App-footer > div:last-of-type div h4 {
+  font-size: 1.1175rem;
+  margin-bottom: 1.5em;
+}
+
+.App-footer > div:last-of-type div ul li {
+  font-size: 0.9375rem;
+  font-weight: 500;
+  color: rgb(50 55 66 / 0.5);
+}
+
+.App-footer > div:last-of-type div ul li a {
+  font-size: 0.9375rem;
+  display: flex;
+  color: rgb(50 55 66 / 0.5);
+  margin-bottom: 0.8em;
+  line-height: 1.25rem;
+}
+
+.App-footer > div:last-of-type div ul li a img {
+  width: auto;
+  height: 14px;
+  margin: auto 0;
+  margin-right: 0.3em;
+}
+
+.App-footer > div:last-of-type div:last-of-type ul li {
+  width: 100%;
+  line-height: 1.4rem;
+}
+
+.App-footer > div:last-of-type div:last-of-type ul:first-of-type li a {
+  margin-bottom: 0;
+}
+
+.App-footer > div:last-of-type div:last-of-type ul:last-of-type {
+  display: flex;
+  height: auto;
+  margin: 4em 0 0;
+}
+
+.App-footer > div:last-of-type div:last-of-type ul:last-of-type li {
+  width: auto;
+}
+
+.App-footer > div:last-of-type div:last-of-type ul:last-of-type li a {
+  display: flex;
+  width: 42px;
+  height: 42px;
+  margin-right: 0.8em;
+  background-color: rgb(50 55 66 / 1);
+  border-radius: 50%;
+  line-height: normal;
+}
+
+.App-footer > div:last-of-type div:last-of-type ul:last-of-type li span {
+  display: flex;
+  margin: auto;
+}
+
+.App-footer > div:last-of-type div:last-of-type ul:last-of-type li span svg {
+  fill: white;
+  width: 16px;
+  height: 16px;
+  margin: auto;
+}
+
+.App-footer > div:last-of-type > p {
+  background-color: #68d1cb;
+  height: 60px;
+  margin-top: 5em;
+  padding: 1em;
+}
+
+@media (min-width: 30em) {
+  .App-footer > div:first-of-type {
+    height: 150px;
+  }
+
+  .App-footer > div:first-of-type div {
+    width: 104%;
+    height: 200px;
+  }
+
+  .App-footer > div:last-of-type {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 5em 3em 0;
+  }
+
+  .App-footer > div:last-of-type div {
+    width: 48%;
+  }
+
+  .App-footer > div:last-of-type > p {
+    position: relative;
+    width: 50%;
+    height: 90px;
+    margin-left: -3em;
+  }
+
+  .App-footer > div:last-of-type > p::before {
+    position: absolute;
+    top: 0;
+    right: 100px;
+    content: "";
+    width: 100px;
+    height: 100%;
+    background: #68d1cb;
+    -webkit-transform: matrix(1, 0, 0.9, 1, 150, 0);
+    -ms-transform: matrix(1, 0, 0.9, 1, 150, 0);
+    transform: matrix(1, 0, 0.9, 1, 150, 0);
+  }
+}
+
+@media (min-width: 50em) {
+  .App-footer > div:last-of-type {
+    max-width: 1920px;
+  }
+  .App-footer > div:last-of-type div {
+    width: 24.5%;
+    padding: 0 2em;
+  }
+}

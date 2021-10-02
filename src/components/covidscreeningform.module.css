@@ -1,0 +1,124 @@
+.covid-screening-form {
+  padding: 2em;
+}
+
+.covid-screening-form > button {
+  width: 100%;
+  font-size: 1rem;
+  color: #fff;
+  padding: 0.8em;
+  background-color: #c58d00;
+  border: 1px solid #c58d00;
+}
+
+.covid-screening-form > div {
+  margin-bottom: 1em;
+}
+
+.covid-screening-form label {
+  display: inline-block;
+}
+
+.covid-screening-form label span {
+  color: salmon;
+}
+
+.covid-screening-form input {
+  width: 100%;
+  padding: 0.8em;
+  border: 1px solid rgba(14, 79, 146, 0.1);
+  margin: 0.8em 0;
+}
+
+.email ul {
+  display: flex;
+}
+
+.email ul li {
+  padding: 0.8em 2em;
+  border: 1px solid rgba(14, 79, 146, 0.1);
+}
+
+.email p {
+  color: salmon;
+}
+
+.dropdown {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0.8em 0;
+}
+
+.dropdown li {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.8em;
+  border: 1px solid rgba(14, 79, 146, 0.1);
+  overflow: hidden;
+}
+
+.dropdown ul li input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: scale(100, 3.5);
+  opacity: 0;
+}
+
+.dropdown ul {
+  background-color: rgba(14, 79, 146, 1);
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown ul li {
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.child-class header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1em;
+}
+
+.child-class h3 {
+  margin: auto 0;
+}
+
+.child-class header button {
+  background-color: #c58d00;
+}
+
+.child-class button {
+  color: #fff;
+  padding: 0.8em;
+  margin: auto 0;
+  background-color: rgba(14, 79, 146, 1);
+  border: none;
+}
+
+.child-class ul li {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.8em;
+}
+
+.child-class ul li span {
+  display: inline-block;
+  margin: auto 0;
+}
+
+.success p {
+  line-height: 1.4rem;
+}
+
+.success button {
+  font-size: 1rem;
+  color: #fff;
+  padding: 0.8em;
+  margin: 1em 0;
+  background-color: #c58d00;
+  border: 1px solid #c58d00;
+}

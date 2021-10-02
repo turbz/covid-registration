@@ -1,0 +1,72 @@
+.Not-Found {
+  width: 100%;
+  height: 100vh;
+  background: url("./assets/404.svg") no-repeat;
+  background-size: cover;
+}
+
+.Not-Found header img {
+  margin: 30px 6.25%;
+}
+
+.Not-Found article {
+  position: absolute;
+  left: 6.25%;
+  bottom: 6.25%;
+}
+
+.Not-Found article h1 {
+  font-size: 3rem;
+  width: 68%;
+  margin-bottom: 30px;
+}
+
+.Not-Found article a {
+  color: #7fbcbe;
+  text-align: center;
+  font-weight: 600;
+  display: block;
+  width: 140px;
+  height: 45px;
+  padding: 0.8em 0;
+  border: 2px solid #7fbcbe;
+  border-radius: 35px;
+}
+
+@media (min-width: 30em) {
+  .Not-Found {
+    height: 100vh;
+    background: url("./assets/404-tablet.svg") no-repeat 50% 50%;
+    background-size: cover;
+  }
+
+  .Not-Found article h1 {
+    font-size: 6rem;
+    width: 65%;
+  }
+
+  .Not-Found article a {
+    font-weight: 500;
+    width: 270px;
+    height: 70px;
+    padding: 0.5em 0;
+    border: 4px solid #7fbcbe;
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 50em) {
+  .Not-Found {
+    height: 100vh;
+    background: url("./assets/404-large.svg") no-repeat 50% 50%;
+    background-size: cover;
+  }
+
+  .Not-Found header img {
+    height: 28px;
+  }
+
+  .Not-Found article h1 {
+    width: 46%;
+  }
+}

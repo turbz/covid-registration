@@ -1,0 +1,111 @@
+.NewJob-cardlist {
+  margin-bottom: 1em;
+}
+
+.NewJob-cardlist .empty {
+  font-size: 1.4rem;
+  padding: 1em;
+}
+
+.NewJob-cardlist .card ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.NewJob-cardlist .card ul li {
+  display: flex;
+  margin-bottom: 0.5em;
+}
+
+.NewJob-cardlist .card ul li span {
+  display: inline-block;
+  margin: auto 0;
+}
+
+.NewJob-cardlist > footer a {
+  color: #fff;
+  display: flex;
+  width: 200px;
+  height: 52px;
+  margin-top: 1em;
+  background-color: rgba(50, 55, 66, 1);
+}
+
+.NewJob-cardlist > footer a span {
+  margin: auto;
+}
+
+@media (min-width: 30em) {
+  .NewJob-cardlist {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 2em;
+  }
+
+  .NewJob-cardlist .card {
+    position: relative;
+    width: 48%;
+    /* height: 2980px; */
+    margin-bottom: 1.4em;
+    border-radius: 15px;
+    overflow: hidden;
+  }
+
+  /* .NewJob-cardlist .card div {
+    display: none;
+  } */
+
+  .NewJob-cardlist > footer {
+    display: flex;
+    /* position: absolute; */
+    bottom: 1em;
+  }
+
+  .NewJob-cardlist > footer ul {
+    display: flex;
+    width: 100%;
+    margin-top: 1em;
+  }
+
+  .NewJob-cardlist > footer ul li {
+    font-size: 0.875rem;
+    background-color: #f2f6f3;
+    margin-right: 0.5em;
+    padding: 0.3em;
+  }
+
+  .NewJob-cardlist > footer a {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding: 0.8em 1.4em;
+    width: auto;
+    border-radius: 50px 20px 0 5px;
+  }
+}
+
+@media (min-width: 50em) {
+  .NewJob-cardlist {
+    width: 84%;
+    margin: 10em auto 4em;
+  }
+
+  .NewJob-cardlist .card {
+    width: 31.5%;
+    margin-left: 1.5%;
+  }
+
+  .NewJob-cardlist > footer a {
+    color: #fff;
+    display: flex;
+    width: 200px;
+    height: 52px;
+    margin-top: 1em;
+    background-color: rgba(50, 55, 66, 1);
+  }
+
+  .NewJob-cardlist > footer a span {
+    margin: auto;
+  }
+}

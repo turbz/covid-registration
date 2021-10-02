@@ -1,0 +1,115 @@
+.Portal-Jobs .Job-Pagination {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.Portal-Jobs .Job-Pagination li {
+  display: flex;
+  margin-bottom: 0.5em;
+}
+
+.Portal-Jobs .Job-Pagination li span {
+  display: inline-block;
+  margin: auto 0;
+}
+
+.Portal-Jobs .Job-Pagination li span:last-of-type {
+  width: 5px;
+  height: 5px;
+  background-color: rgba(50, 55, 66, 0.5);
+  margin: auto 0.5em;
+  border-radius: 50%;
+}
+
+.Portal-Jobs .Job-Pagination li:last-of-type span:last-of-type {
+  display: none;
+}
+
+.Portal-Jobs .Job-Pagination {
+  margin-top: 2em;
+}
+
+.Portal-Jobs .Job-Pagination li a {
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  color: rgba(50, 55, 66, 0.5);
+  margin-right: 0.5em;
+  width: 42px;
+  height: 42px;
+  padding: 0.8em 0.5em;
+  border: 1px solid rgba(50, 55, 66, 0.15);
+  border-radius: 50%;
+}
+
+.Portal-Jobs .Job-Pagination li.arrow a {
+  text-align: center;
+  background-color: rgba(50, 55, 66, 1);
+  display: flex;
+  padding: 0.5em 0.6em;
+}
+
+.Portal-Jobs .Job-Pagination li.arrow svg {
+  fill: white;
+  width: 24px;
+  height: 24px;
+  margin: auto;
+}
+
+.Portal-Jobs .Job-Pagination li.less,
+.Portal-Jobs .Job-Pagination li.more {
+  display: inline-block;
+  padding: 0.2em 0.4em 0;
+  border: none;
+}
+
+.Portal-Jobs .Job-Pagination li.more {
+  padding-left: 0;
+}
+
+.Portal-Jobs .Job-Pagination li:first-of-type a span,
+.Portal-Jobs .Job-Pagination li:last-of-type a span {
+  margin: auto;
+}
+
+.Portal-Jobs .Job-Pagination li:hover {
+  text-decoration: underline;
+}
+
+@media (min-width: 30em) {
+  .Portal-Jobs .Job-Pagination {
+    width: 100%;
+  }
+
+  .Portal-Jobs .Job-Pagination li {
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width: 50em) {
+  .Portal-Jobs .Job-Pagination {
+    display: flex;
+  }
+
+  .Portal-Jobs .Job-Pagination li {
+    display: flex;
+  }
+
+  .Portal-Jobs .Job-Pagination li span {
+    display: inline-block;
+    margin: auto 0;
+  }
+
+  .Portal-Jobs .Job-Pagination li span:last-of-type {
+    width: 5px;
+    height: 5px;
+    background-color: rgba(50, 55, 66, 0.5);
+    margin: auto 0.5em;
+    border-radius: 50%;
+  }
+
+  .Portal-Jobs .Job-Pagination li:last-of-type span:last-of-type {
+    display: none;
+  }
+}

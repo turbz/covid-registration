@@ -1,0 +1,296 @@
+.NewPortal-job {
+  position: relative;
+  padding: 5em 0 2em;
+  background-color: #f2f6f3;
+}
+
+.NewPortal-job .closed {
+  color: white;
+  width: 100%;
+  padding: 0.8em;
+  padding-left: 1em;
+  background-color: #f16162;
+}
+
+.NewPortal-job .taevo-spinner {
+  text-align: center;
+  position: relative;
+  width: 100px;
+  height: 50vh;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.NewPortal-job .details {
+  /* color: white; */
+  background-color: #fff;
+  margin-bottom: 1em;
+  padding: 1em 1.4em;
+  background-image: radial-gradient(
+    circle at 10% 100%,
+    rgba(241, 97, 98, 0.25) 25%,
+    rgba(255, 209, 58, 0.25) 100%,
+    #fff 15%
+  );
+}
+
+.NewPortal-job .details .wrapper div > h4 {
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 0.875rem;
+  color: #fff;
+  display: flex;
+  width: 105px;
+  height: 20px;
+  background-color: rgba(50, 55, 66, 1);
+  border-radius: 35px;
+}
+
+.NewPortal-job .details .wrapper div > h4 svg {
+  fill: rgba(255, 255, 255, 0.8);
+  width: 20px;
+  height: 20px;
+  margin: auto 0;
+}
+
+.NewPortal-job .details .wrapper div > h4 span {
+  color: rgba(255, 255, 255, 0.8);
+  display: inline-block;
+  line-height: 0;
+  margin: auto 0;
+}
+
+.NewPortal-job .card .details hgroup {
+  margin: 1em 0;
+}
+
+.NewPortal-job .card .details hgroup h3 {
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 2.2rem;
+}
+
+.NewPortal-job .card .details hgroup h4 {
+  color: #7fbcbe;
+  font-weight: 500;
+  margin-top: 0.3em;
+}
+
+.NewPortal-job .card .details hgroup h4 span:first-of-type {
+  color: rgba(50, 55, 66, 0.5);
+}
+
+.NewPortal-job .card .details hgroup h4 span:last-of-type {
+  font-style: italic;
+}
+
+.NewPortal-job .card .details ul,
+.NewPortal-job .card .post-footer > ul {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 1em;
+}
+
+.NewPortal-job .card .details ul li,
+.NewPortal-job .card .post-footer > ul li {
+  font-size: 0.9375rem;
+  margin-bottom: 0.5em;
+  margin-right: 0.8em;
+}
+
+.NewPortal-job .card .details ul li span,
+.NewPortal-job .card .post-footer > ul li span {
+  display: block;
+}
+
+.NewPortal-job .card .details ul li span:first-of-type,
+.NewPortal-job .card .post-footer > ul li span:first-of-type {
+  color: rgba(50, 55, 66, 0.5);
+  margin-bottom: 0.8em;
+}
+
+.NewPortal-job .card .details .wrapper > a {
+  color: #fff;
+  display: flex;
+  width: 140px;
+  height: 42px;
+  margin-top: 1em;
+  background-color: #7fbcbe;
+  border-radius: 5px;
+}
+
+.NewPortal-job .card .details .wrapper > a span {
+  margin: auto;
+}
+
+.NewPortal-job .card .details ul {
+  margin-top: 2em;
+}
+
+.NewPortal-job .card .details ul li a {
+  display: inline-block;
+  cursor: pointer;
+  color: rgba(50, 55, 66, 0.5);
+  margin-right: 0.5em;
+  width: 28px;
+  height: 28px;
+  padding: 0.3em 0.5em;
+  border: 1px solid rgba(50, 55, 66, 0.15);
+}
+
+.NewPortal-job .card .details ul li:first-of-type a,
+.NewPortal-job .card .details ul li:last-of-type a {
+  text-align: center;
+  background-color: rgba(50, 55, 66, 1);
+  display: flex;
+  padding: 0.5em 0.6em;
+}
+
+.NewPortal-job .card .details ul li:first-of-type a span,
+.NewPortal-job .card .details ul li:last-of-type a span {
+  margin: auto;
+}
+
+/* .NewPortal-job .card .details  ul li:hover {
+  text-decoration: underline;
+} */
+
+.NewPortal-job .social-media ul {
+  display: flex;
+}
+
+.NewPortal-job .social-media ul li {
+  margin-right: 0.5em;
+}
+
+.NewPortal-job .social-media h5 {
+  color: rgba(50, 55, 66, 1);
+  font-weight: 500;
+  font-size: 1rem;
+  margin-bottom: 0.5em;
+}
+
+.NewPortal-job .social-media svg {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+}
+
+.NewPortal-job .card .content {
+  color: rgba(50, 55, 66, 1);
+  margin-bottom: 1em;
+  padding: 1em;
+  line-height: 1.5rem;
+}
+
+.NewPortal-job .card .content h1,
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1em;
+}
+
+.NewPortal-job .card .content h3,
+h4 {
+  font-size: 1.1175rem;
+  margin-bottom: 1em;
+}
+
+.NewPortal-job .card .content p {
+  margin-bottom: 1em;
+}
+
+.NewPortal-job .card .content ul {
+  list-style: initial;
+  margin-bottom: 1em;
+  padding-left: 2em;
+}
+
+.NewPortal-job .card .content ol {
+  padding-left: 2rem;
+}
+
+.NewPortal-job .card .post-footer {
+  padding: 1em;
+}
+
+.NewPortal-job .details .wrapper div {
+  width: 75%;
+}
+
+.NewPortal-job .card .details > a {
+  margin: auto 0;
+}
+
+@media (min-width: 30em) {
+  .NewPortal-job {
+    width: 100%;
+    /* padding: 8em 0 4em; */
+  }
+
+  .NewPortal-job .card .details {
+    padding: 2em 3em;
+    margin-bottom: 2em;
+  }
+
+  .NewPortal-job .card .details .wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .NewPortal-job .card .content {
+    padding: 0 3em;
+  }
+
+  .NewPortal-job .card .post-footer {
+    padding: 2em 3em;
+  }
+}
+
+@media (min-width: 50em) {
+  .NewPortal-job {
+    margin-right: 3em;
+    margin-bottom: 3em;
+  }
+
+  .NewPortal-job .card .details {
+    padding: 2em 10%;
+  }
+
+  .NewPortal-job .card .details .wrapper {
+    max-width: 1366px;
+    margin: 0 auto;
+  }
+
+  .NewPortal-job .details .wrapper > hgroup h3 {
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+
+  .NewPortal-job .card .details .wrapper ul {
+    display: flex;
+  }
+
+  .NewPortal-job .description {
+    width: 80%;
+    max-width: 1366px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .NewPortal-job .card .content {
+    width: 55%;
+    margin-bottom: 1em;
+    padding: 0 0;
+    line-height: 1.5rem;
+  }
+
+  .NewPortal-job .card .post-footer {
+    width: 30%;
+    height: 420px;
+    margin: 0;
+    padding: 0 2em;
+    border-left: 1px solid rgba(50, 55, 66, 0.5);
+  }
+}

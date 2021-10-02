@@ -1,0 +1,118 @@
+.posts-sidebar {
+  width: 100%;
+}
+
+.posts-sidebar div {
+  position: relative;
+}
+
+.posts-sidebar h3 {
+  font-size: 1.8rem;
+  margin-top: 3em;
+  margin-bottom: 1em;
+}
+
+.posts-sidebar h4 {
+  font-weight: 500;
+  color: #324742;
+  display: flex;
+  margin: 0;
+  padding: 0.8em 0;
+  justify-content: space-between;
+}
+
+.posts-sidebar h4 span:first-of-type {
+  display: inline-block;
+  margin: auto 0;
+}
+
+.posts-sidebar h4 svg {
+  width: 18px;
+  height: 18px;
+  margin: auto 0;
+  margin-right: 0.5em;
+}
+
+.posts-sidebar h4 span:nth-child(3) {
+  display: none;
+}
+
+.posts-sidebar h4 span:nth-child(2),
+.posts-sidebar h4 button {
+  cursor: pointer;
+  position: relative;
+  color: #f16162;
+  font-size: 0.875rem;
+  margin: auto 0;
+  padding: 0.5em 0.8em;
+  background-color: #f2f6f3;
+  border: none;
+  border-radius: 25px;
+  overflow: hidden;
+}
+
+.posts-sidebar h4 input {
+  position: absolute;
+  transform: scale(6);
+  left: 2.2em;
+  opacity: 0;
+}
+
+.posts-sidebar ul {
+  width: 100%;
+}
+
+.posts-sidebar ul li {
+  cursor: pointer;
+  position: relative;
+  width: 100%;
+  display: flex;
+  margin-bottom: 0.8em;
+  justify-content: space-between;
+  /* flex-direction: row-reverse; */
+  overflow: hidden;
+}
+
+.posts-sidebar ul li span:nth-child(3) {
+  display: flex;
+  width: 18px;
+  height: 18px;
+  border: 1px solid #323742;
+  margin-right: 0.5em;
+  border-radius: 50%;
+}
+
+.posts-sidebar ul li input,
+.posts-sidebar ul li button {
+  position: absolute;
+  transform: scale(40);
+  opacity: 0;
+  z-index: 1;
+}
+
+/* .posts-sidebar .city {
+    position: relative;
+  } */
+
+.posts-sidebar .city ul {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  height: 180px;
+  overflow: hidden;
+  overflow-y: scroll;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.posts-sidebar .city ul::-webkit-scrollbar {
+  display: none;
+}
+
+@media (min-width: 50em) {
+  .posts-sidebar {
+    width: 300px;
+    height: 700px;
+  }
+}

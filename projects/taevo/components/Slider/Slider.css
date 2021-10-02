@@ -1,0 +1,60 @@
+.App-Banner > div div.Slider {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0;
+  width: 100vw;
+}
+
+.Slider img {
+  width: 1920px;
+  height: auto;
+}
+
+.App-Banner > div .Slider ul {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  width: 80px;
+  z-index: 99;
+  right: 7%;
+  bottom: 8em;
+}
+
+.App-Banner > div .Slider ul li {
+  cursor: pointer;
+  width: 10px;
+  height: 10px;
+  margin: 0;
+  padding: 0;
+  background-color: #d7dbd8;
+  border-radius: 50%;
+}
+
+.App-Banner > div .Slider ul li:focus {
+  background-color: #323742;
+  transition: ease-in 1s;
+}
+
+.App-Banner > div .Slider ul li:last-of-type {
+  margin: 0;
+}
+
+.App-Banner > div .Slider.mobile {
+  display: none;
+}
+
+@media (max-width: 50em) {
+  .App-Banner > div .Slider {
+    display: none;
+  }
+
+  .App-Banner > div .Slider.mobile {
+    display: inline-block;
+  }
+
+  .Slider img {
+    width: auto;
+    height: 65vh;
+  }
+}

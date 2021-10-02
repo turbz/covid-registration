@@ -1,0 +1,55 @@
+.Portal-Suggested-Post {
+  margin-bottom: 1em;
+}
+.Portal-Suggested-Post > h3 {
+  margin-bottom: 1em;
+}
+
+.Portal-Suggested-Post article {
+  display: flex;
+  border-bottom: 1px solid rgba(66, 55, 50, 0.3);
+  padding-bottom: 0.8em;
+  margin-bottom: 0.8em;
+}
+
+.Portal-Suggested-Post figure {
+  display: flex;
+  width: 42px;
+  height: 42px;
+  margin: auto 0;
+  margin-right: 0.8em;
+  background-color: #fff;
+  background-size: contain !important;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.Portal-Suggested-Post figure svg {
+  width: 32px;
+  height: 32px;
+  margin: auto;
+}
+
+.Portal-Suggested-Post hgroup {
+  width: 75%;
+}
+
+.Portal-Suggested-Post hgroup h4 {
+  font-size: 1rem;
+  margin-bottom: 0;
+}
+
+.Portal-Suggested-Post h4 a:hover {
+  text-decoration: underline;
+  transition: ease-in 1s;
+  opacity: 0.5;
+}
+
+.Portal-Suggested-Post hgroup h4:first-of-type {
+  margin-bottom: 0.5em;
+}
+
+.Portal-Suggested-Post hgroup h4:last-of-type {
+  font-size: 0.875rem;
+  font-weight: normal;
+}

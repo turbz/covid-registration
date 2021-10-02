@@ -1,0 +1,177 @@
+.Portal-footer {
+  width: 100%;
+  color: #323742;
+  background-color: #fff;
+  padding: 2em 1em 0;
+  border-top: 1px solid #f2f6f3;
+}
+
+.Portal-footer > div div {
+  margin-bottom: 3em;
+}
+
+.Portal-footer > div div:first-of-type ul {
+  height: auto;
+  margin-top: 5em;
+}
+
+.Portal-footer > div div:first-of-type ul li span:first-of-type {
+  margin-right: 0.5em;
+}
+
+.Portal-footer > div div:first-of-type ul li {
+  display: flex;
+  width: 100%;
+  margin-bottom: 0.5em;
+}
+
+.Portal-footer > div div:first-of-type ul li a {
+  margin-bottom: 0;
+}
+
+.Portal-footer > div div:first-of-type ul li a:first-of-type {
+  margin-right: 0.5em;
+}
+
+.Portal-footer > div div:first-of-type ul li a:last-of-type {
+  margin-left: 0.5em;
+}
+
+.Portal-footer > div div:first-of-type img {
+  width: 42px;
+  height: 42px;
+}
+
+.Portal-footer > div div p {
+  color: #8a8a8a;
+  line-height: 1.7rem;
+}
+
+.Portal-footer > div div h4 {
+  font-size: 1.1175rem;
+  margin-bottom: 1.5em;
+}
+
+.Portal-footer > div div ul li {
+  font-size: 0.9375rem;
+  font-weight: 500;
+  color: rgb(50 55 66 / 0.5);
+}
+
+.Portal-footer > div div ul li a {
+  font-size: 0.9375rem;
+  display: flex;
+  color: rgb(50 55 66 / 0.5);
+  margin-bottom: 0.8em;
+  line-height: 1.25rem;
+}
+
+.Portal-footer > div div ul li a img {
+  width: auto;
+  height: 14px;
+  margin: auto 0;
+  margin-right: 0.3em;
+}
+
+.Portal-footer > div div:last-of-type ul li {
+  width: 100%;
+  line-height: 1.4rem;
+}
+
+.Portal-footer > div div:last-of-type ul:first-of-type li a {
+  margin-bottom: 0;
+}
+
+.Portal-footer > div div:last-of-type ul:last-of-type {
+  display: flex;
+  height: auto;
+  margin: 4em 0 0;
+}
+
+.Portal-footer > div div:last-of-type ul:last-of-type li {
+  width: auto;
+}
+
+.Portal-footer > div div:last-of-type ul:last-of-type li a {
+  display: flex;
+  width: 42px;
+  height: 42px;
+  margin-right: 0.8em;
+  background-color: rgb(50 55 66 / 1);
+  border-radius: 50%;
+  line-height: normal;
+}
+
+.Portal-footer > div div:last-of-type ul:last-of-type li span {
+  display: flex;
+  margin: auto;
+}
+
+.Portal-footer > div div:last-of-type ul:last-of-type li span svg {
+  fill: white;
+  width: 16px;
+  height: 16px;
+  margin: auto;
+}
+
+.Portal-footer > div > p {
+  background-color: #68d1cb;
+  height: 60px;
+  margin-top: 5em;
+  padding: 1em;
+}
+
+@media (min-width: 30em) {
+  .Portal-footer {
+    flex-wrap: wrap;
+    padding: 5em 3em 0;
+  }
+
+  .Portal-footer > div {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .Portal-footer > div div {
+    width: 48%;
+  }
+
+  .Portal-footer > div > p {
+    position: relative;
+    width: 50%;
+    height: 90px;
+    margin-left: -3em;
+  }
+
+  .Portal-footer > div > p::before {
+    position: absolute;
+    top: 0;
+    right: 100px;
+    content: "";
+    width: 100px;
+    height: 100%;
+    background: #68d1cb;
+    -webkit-transform: matrix(1, 0, 0.9, 1, 150, 0);
+    -ms-transform: matrix(1, 0, 0.9, 1, 150, 0);
+    transform: matrix(1, 0, 0.9, 1, 150, 0);
+  }
+}
+
+@media (min-width: 50em) {
+  .Portal-footer {
+    width: 100%;
+  }
+
+  .Portal-footer > div {
+    max-width: 1366px;
+    margin: 0 auto;
+  }
+
+  .Portal-footer > div div:first-of-type {
+    width: 24%;
+  }
+  .Portal-footer > div div {
+    width: 23%;
+    /* padding: 0 2em; */
+  }
+}

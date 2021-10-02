@@ -1,0 +1,219 @@
+.Portal-Main-Header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  width: 100%;
+  height: 80px;
+  padding: 20px 5.33%;
+  z-index: 10;
+}
+
+.Portal-Main-Header > div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Portal-Main-Header > div .logo {
+  height: 80px;
+  margin: 0.5em 0;
+}
+
+.Portal-Main-Header > div .logo img {
+  width: 24px;
+  height: 24px;
+}
+
+.Portal-Main-Header > div > a .logo-desktop {
+  width: 138px;
+  height: 42px;
+  display: none;
+}
+
+.Portal-Main-Header > div .cart {
+  color: #fff;
+  display: flex;
+  width: 28px;
+  height: 28px;
+  margin: auto 0;
+  margin-right: 0.5em;
+  background-color: #323742;
+  border-radius: 50%;
+  display: none;
+}
+
+.Portal-Main-Header > div .cart span {
+  margin: auto;
+}
+
+.Portal-Main-Header > div .logo-menu {
+  position: absolute;
+  top: 1.4em;
+  right: 19em;
+  height: 30px;
+  z-index: 5;
+}
+
+.Portal-Main-Header > div > div {
+  display: flex;
+  width: 238px;
+}
+
+.Portal-Main-Header > div .main-nav {
+  display: flex;
+  height: 40px;
+}
+
+.Portal-Main-Header > div .toggle {
+  color: #737574;
+  font-size: 0.8rem;
+  display: inline-block;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  margin: auto 0;
+  background-color: #fff;
+  background: url("../../../images/bg-ipad-nav.jpg") no-repeat 50%;
+  background-size: auto;
+  background-size: cover;
+}
+
+.Portal-Main-Header > div .close {
+  display: inline-block;
+  cursor: pointer;
+  position: absolute;
+  top: 4em;
+  right: 4em;
+  width: 32px;
+  height: 32px;
+}
+
+.Portal-Main-Header > div .close svg {
+  width: 36px;
+  height: 36px;
+}
+
+.Portal-Main-Header > div > ul {
+  display: none;
+}
+
+.Portal-Main-Header > div > ul li:nth-child(2) {
+  display: none;
+}
+
+.Portal-Main-Header > div .main-nav img {
+  cursor: pointer;
+  margin: auto 0;
+  margin-right: 0.5em;
+}
+
+.Portal-Main-Header > div .main-nav img.menu {
+  width: 16px;
+  height: 8px;
+  margin: auto 0.5em;
+}
+
+.Portal-Main-Header > div div .login {
+  width: 205px;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.Portal-Main-Header > div div .login li {
+  width: 80px;
+  display: flex;
+  margin: auto 0;
+}
+
+.Portal-Main-Header > div div .login a:first-of-type {
+  width: 100%;
+  margin-right: 0.6em;
+  padding: 0;
+}
+
+.Portal-Main-Header > div div .login a:hover {
+  color: rgba(50, 55, 66, 0.6);
+  text-decoration: underline;
+  transition: ease-in 3s;
+}
+
+.Portal-Main-Header > div .login li:last-of-type {
+  width: 120px;
+}
+
+.Portal-Main-Header > div .login li:last-of-type a {
+  font-weight: normal;
+  text-align: center;
+  display: block;
+  width: 100%;
+  height: 38px;
+  color: #fff;
+  margin: auto 0;
+  padding: 0.8em 0;
+  background-color: #323742;
+  border: 2px solid #323742;
+  border-radius: 35px;
+}
+
+@media (min-width: 30em) {
+  .Portal-Main-Header > div .logo {
+    height: auto;
+    margin: 0;
+  }
+
+  .Portal-Main-Header > div .logo img:first-of-type {
+    display: inline-block;
+  }
+
+  .Portal-Main-Header > div > a img:last-of-type {
+    display: none;
+  }
+
+  .portal-user-navigation button {
+    width: 140px;
+    height: 45px;
+  }
+
+  /* .Portal-Main-Header > div ul li {
+    width: 25%;
+    margin: auto 0;
+  } */
+}
+
+@media (min-width: 50em) {
+  .Portal-Main-Header > div {
+    width: 100%;
+    max-width: 1366px;
+    margin: 0 auto;
+  }
+  .Portal-Main-Header > div .logo {
+    width: 140px;
+  }
+
+  .Portal-Main-Header > div .main-nav img {
+    display: none;
+  }
+
+  .Portal-Main-Header > div > ul {
+    width: 60%;
+    display: flex;
+    margin: auto 0;
+  }
+
+  .Portal-Main-Header > div > ul a {
+    display: block;
+    width: 70px;
+    font-size: 0.875rem;
+    font-weight: 600;
+    margin-right: 2em;
+  }
+
+  .Portal-Main-Header > div > div {
+    width: 200px;
+  }
+}

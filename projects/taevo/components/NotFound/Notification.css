@@ -1,0 +1,108 @@
+.Notification {
+  text-align: center;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: #fff;
+  overflow: hidden;
+  z-index: 100;
+}
+
+.Notification div {
+  display: block;
+  width: 100%;
+  height: 50vh;
+  background-color: #f2f6f3;
+  background: url("./assets/lost-person-mobile.png") no-repeat center;
+  background-size: cover;
+  border-radius: 0 0 50% 50%;
+}
+
+.Notification div h1 {
+  display: flex;
+  padding: 0.8em 1em;
+}
+
+.Notification div h1 img {
+  height: 24px;
+}
+
+.Notification footer {
+  width: 65%;
+  margin: 24% auto 2%;
+}
+
+.Notification h3 {
+  font-family: Lato;
+  width: 100%;
+  margin: 2.4em auto 2em;
+}
+
+.Notification p {
+  color: #d7dbd8;
+  font-size: 0.875rem;
+  width: 100%;
+  margin: 0 auto 2em;
+  line-height: 1rem;
+}
+
+.Notification button {
+  display: inline-block;
+  font-size: 1.2rem;
+  color: #fff;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #7fbcbe;
+  border: 2px solid #7fbcbe;
+  border-radius: 25px;
+  padding: 0.6em;
+}
+
+.Notification button a {
+  color: #fff;
+}
+
+@media (min-width: 30em) {
+  .Notification div h1 {
+    padding: 1.5em 2em;
+  }
+
+  .Notification div h1 img {
+    height: 32px;
+  }
+
+  .Notification button {
+    font-size: 1.5rem;
+    border-radius: 55px;
+    padding: 1em;
+  }
+}
+
+@media (min-width: 50em) {
+  .Notification {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .Notification div {
+    width: 50%;
+    height: 100%;
+    background: url("./assets/lost-img.png") no-repeat center;
+    background-size: cover;
+    border-radius: 0;
+  }
+
+  .Notification footer {
+    width: 50%;
+    margin: auto;
+    padding: 0 10%;
+    box-sizing: border-box;
+  }
+
+  .Notification button {
+    width: 280px;
+    padding: 0.5em;
+  }
+}

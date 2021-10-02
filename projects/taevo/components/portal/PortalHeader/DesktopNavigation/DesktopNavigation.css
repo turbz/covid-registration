@@ -1,0 +1,68 @@
+.Portal-Main-Header nav .Desktop-navigation {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 1.25rem;
+  font-weight: 600;
+  width: 48%;
+  height: 65vh;
+  margin: auto 0;
+  padding: 20% 10%;
+}
+
+.Portal-Main-Header .main-nav .Desktop-navigation {
+  display: none;
+}
+
+@media (min-width: 30em) {
+  .Portal-Main-Header nav .Desktop-navigation {
+    font-size: 1.25rem;
+    font-weight: 600;
+  }
+}
+
+@media (min-width: 80em) {
+  .Portal-Main-Header nav .Desktop-navigation {
+    display: none;
+  }
+  /* .Portal-Main-Header .main-nav .Desktop-navigation {
+    display: flex;
+  }
+
+  .Portal-Main-Header nav .Desktop-navigation {
+    position: absolute;
+    left: 0;
+    top: 19em;
+    width: 100vw;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 80px;
+    margin: 0;
+    padding: 0 4em;
+    align-items: center;
+    background: #fff;
+    box-shadow: 0px 3px 15px -15px rgba(0, 0, 0, 0.75);
+    z-index: 10;
+  }
+
+  .Portal-Main-Header nav .Desktop-navigation li a {
+    display: inline-block;
+    position: relative;
+    font-size: 12px;
+    height: 80px;
+    padding: 2.8em 2em 0;
+    font-weight: 500;
+    color: #000000;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+
+  .Portal-Main-Header nav .Desktop-navigation li a.active,
+  .Portal-Main-Header nav .Desktop-navigation li a:hover {
+    color: #fff;
+    background-color: #323742;
+    animation: fadeIn;
+    animation-duration: 2s;
+  } */
+}

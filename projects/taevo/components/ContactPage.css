@@ -1,0 +1,129 @@
+div.contact-message {
+  color: #fff;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  height: 35px;
+  padding: 0 6.25%;
+  background-color: #7fbcbe;
+}
+
+div.contact-message span {
+  margin: auto 0;
+}
+
+div.contact-message img {
+  cursor: pointer;
+  height: 12px;
+  margin: auto 0;
+}
+
+.Contact-Page {
+  width: 87.5%;
+  margin: 25% auto;
+}
+
+.Contact-Page h2 {
+  font-family: "Nunito", sans-serif;
+  color: #7fbcbe;
+  font-weight: 800;
+}
+
+.Contact-Page p {
+  margin: 30px 0;
+}
+
+.Contact-Page ul {
+  margin-bottom: 30px;
+}
+
+.Contact-Page ul li {
+  margin-bottom: 0.3em;
+}
+
+.Contact-Page input {
+  width: 100%;
+  height: 45px;
+  margin-bottom: 15px;
+  padding: 1em;
+  border: 1px solid #d7dbd8;
+  border-radius: 35px;
+}
+
+::placeholder {
+  font-weight: 500;
+  text-transform: capitalize;
+  font-size: 1rem;
+  color: #9dadcf;
+}
+
+.Contact-Page textarea {
+  width: 100%;
+  height: 300px;
+  margin-bottom: 15px;
+  padding: 1em;
+  border: 1px solid #d7dbd8;
+  border-radius: 15px;
+}
+
+.Contact-Page button {
+  font-size: 1.25rem;
+  color: #fff;
+  width: 140px;
+  height: 45px;
+  border: 2px solid #7fbcbe;
+  background-color: #7fbcbe;
+  border-radius: 35px;
+  text-transform: uppercase;
+}
+
+@media (min-width: 30em) {
+  .Contact-Page {
+    margin-top: 15%;
+  }
+  .Contact-Page h2 {
+    font-size: 2rem;
+  }
+  .Contact-Page p {
+    width: 75%;
+  }
+
+  .Contact-Page input {
+    width: 48%;
+    height: 55px;
+    margin-bottom: 4%;
+  }
+
+  .Contact-Page input:first-of-type {
+    margin-right: 4%;
+  }
+
+  .Contact-Page textarea {
+    margin-bottom: 4%;
+  }
+
+  .Contact-Page button {
+    width: 180px;
+    height: 55px;
+  }
+}
+
+@media (min-width: 50em) {
+  .Contact-Page {
+    width: 78%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+  }
+
+  .Contact-Page div {
+    width: 40%;
+    margin: auto 0;
+  }
+
+  .Contact-Page form {
+    width: 50%;
+  }
+}

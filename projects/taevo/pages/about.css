@@ -1,0 +1,58 @@
+.About {
+  padding: 8em 1em;
+}
+
+.About > div:first-of-type h4 {
+  font-weight: 500;
+  font-size: 0.876rem;
+  color: rgb(50 55 66 / 0.4);
+  margin: 1em 0;
+  display: flex;
+}
+
+.About > div:first-of-type h4 span:first-of-type {
+  display: inline-block;
+  width: 20px;
+  height: 2px;
+  margin: auto 0;
+  margin-right: 0.5em;
+  background-color: rgb(50 55 66 / 0.4);
+}
+
+.About > div:first-of-type h2 {
+  font-weight: 500;
+  margin-bottom: 1em;
+  line-height: 1.8rem;
+}
+
+.About > div:first-of-type p {
+  color: rgb(50 55 66 / 0.6);
+  margin-bottom: 1em;
+  line-height: 1.8rem;
+}
+
+@media (min-width: 30em) {
+  .About {
+    padding: 12em 1em 8em;
+  }
+
+  .About > div:first-of-type {
+    width: 65%;
+    margin: 0 auto;
+  }
+
+  .About > div:first-of-type h2 {
+    width: 65%;
+  }
+}
+
+@media (min-width: 50em) {
+  .About > div:first-of-type {
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .About > div:first-of-type h2 {
+    width: 55%;
+  }
+}

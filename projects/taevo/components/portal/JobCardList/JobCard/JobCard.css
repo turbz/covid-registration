@@ -1,0 +1,100 @@
+.NewJob-cardlist .card {
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  width: 100%;
+  height: 250px;
+  margin: 0 1em 1em 0;
+  padding: 1em;
+  box-shadow: 0 0 5px rgba(50, 55, 66, 0.1);
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.NewJob-cardlist .card div {
+  position: relative;
+  width: 100%;
+}
+
+.NewJob-cardlist .card a {
+  color: #fff;
+  float: right;
+  padding: 0.3em 0.8em;
+  background-color: rgba(50, 55, 66, 1);
+  border-radius: 25px;
+}
+
+.NewJob-cardlist .card footer {
+  position: absolute;
+  bottom: 0;
+}
+
+.NewJob-cardlist .card footer figure {
+  width: 100%;
+  height: 24px;
+  background-size: contain !important;
+}
+
+.NewJob-cardlist .card footer svg {
+  width: 32px;
+  height: 32px;
+}
+
+.NewJob-cardlist .card h3 {
+  font-size: 1.1175rem;
+  margin: 0.8em 0;
+  height: 60px;
+  line-height: 1.4rem;
+}
+
+.NewJob-cardlist .card ul {
+  display: flex;
+  font-size: 0.875rem;
+}
+
+.NewJob-cardlist .card ul li {
+  font-size: 0.75rem;
+  padding: 0.3em 0.5em;
+  background-color: #f2f6f3;
+  margin-right: 0.8em;
+  border-radius: 30px;
+}
+
+.NewJob-cardlist .card .paragraph {
+  display: none;
+  /* display: none; */
+  color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 75%;
+  padding: 1em;
+  line-height: 1.4rem;
+  /* margin: -1em; */
+  background-color: #323742;
+  transition: ease 1s;
+  opacity: 0;
+  z-index: 1;
+}
+
+.NewJob-cardlist .card:hover .paragraph {
+  /* display: inline-block; */
+  opacity: 1;
+}
+
+@media (min-width: 30em) {
+  .NewJob-cardlist .card {
+    margin: 0;
+  }
+}
+
+@media (min-width: 50em) {
+  .NewJob-cardlist .card h3 {
+    margin: 0.8em 0;
+  }
+
+  .NewJob-cardlist .card .paragraph {
+    display: inline-block;
+  }
+}

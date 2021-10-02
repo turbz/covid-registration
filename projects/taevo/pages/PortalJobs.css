@@ -1,0 +1,143 @@
+.Portal-Jobs {
+  width: 100%;
+  padding: 0 1em;
+  margin-top: 5em;
+}
+
+.Portal-Jobs .wrapper .taevo-spinner {
+  position: relative;
+  width: 100%;
+  height: 50vh;
+}
+
+.Portal-Jobs .wrapper .New-Banner {
+  display: none;
+  margin: 0;
+}
+
+.Portal-Jobs .wrapper .New-Job-filter {
+  display: none;
+}
+
+.Portal-Jobs .wrapper > div {
+  margin: 2em 0;
+}
+
+.Portal-Jobs .wrapper > div > div {
+  width: 100%;
+  margin-top: 1em;
+  margin-left: 0;
+}
+
+.Portal-Jobs .wrapper > div > div > div:first-of-type {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.Portal-Jobs .wrapper > div > div > div:first-of-type .Job-Pagination {
+  margin-bottom: 1em;
+}
+
+.Portal-Jobs .wrapper > div > div > div:first-of-type > div {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.Portal-Jobs .wrapper > div > div > div:first-of-type > div > input {
+  width: 100%;
+  font-weight: 500;
+  font-size: 1rem;
+  padding: 0.8em 1em;
+  border-radius: 32px;
+  background-color: #f2f6f3;
+  border: none;
+}
+
+.Portal-Jobs .wrapper > div > div > div:first-of-type div button {
+  color: white;
+  font-size: 1rem;
+  width: 140px;
+  height: 42px;
+  background-color: #323742;
+  border-radius: 35px;
+  border: 1px solid #323742;
+  margin-left: 0.5em;
+}
+
+.Portal-Jobs .wrapper .NewJob-cardlist {
+  width: 100%;
+  margin: 2em auto 4em;
+}
+
+.Portal-Jobs .wrapper .NewJob-cardlist .card {
+  box-shadow: none;
+  border: 1px solid #f2f6f3;
+}
+
+@media (min-width: 30em) {
+  .Portal-Jobs {
+    padding: 0 3em;
+  }
+
+  .Portal-Jobs .wrapper > div > div > div:first-of-type .Job-Pagination {
+    margin: 2em 0;
+    justify-content: center;
+  }
+
+  .Portal-Jobs .wrapper > div > div > div:first-of-type > div > input {
+    width: 74%;
+    height: 42px;
+  }
+}
+
+@media (min-width: 50em) {
+  .Portal-Jobs {
+    width: 100%;
+    padding: 0 4em;
+    display: inline-block;
+  }
+
+  .Portal-Jobs .wrapper {
+    max-width: 1366px;
+    margin: 0 auto;
+  }
+
+  .Portal-Jobs .wrapper .taevo-spinner {
+    height: 20vh;
+  }
+
+  .Portal-Jobs .wrapper .New-Banner {
+    display: flex;
+  }
+
+  .Portal-Jobs .wrapper > div {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .Portal-Jobs .wrapper > div > div {
+    width: 85%;
+    margin: 0;
+    margin-left: 2em;
+  }
+
+  .Portal-Jobs .wrapper > div > div > div:first-of-type {
+    flex-wrap: nowrap;
+  }
+
+  .Portal-Jobs .wrapper > div > div > div:first-of-type .Job-Pagination {
+    width: 300px;
+    margin: 0;
+    justify-content: flex-start;
+  }
+
+  .Portal-Jobs .wrapper > div > div > div:first-of-type > div {
+    width: 60%;
+  }
+
+  .Portal-Jobs .wrapper > div > div > div:first-of-type > div > input {
+    width: 70%;
+  }
+}

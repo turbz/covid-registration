@@ -1,0 +1,16 @@
+.covid-questions {
+  padding: 1em;
+  background-color: rgb(234, 230, 235);
+}
+
+.covid-questions ul li,
+.covid-questions ol li {
+  margin-bottom: 1em;
+  line-height: 1.25rem;
+}
+
+.covid-questions ul {
+  list-style: circle;
+  margin-top: 1em;
+  padding-left: 2.4em;
+}

@@ -1,0 +1,382 @@
+.App-Banner {
+  width: 100%;
+  height: 100vh;
+  margin-top: -80px;
+}
+
+.App-Banner > div:first-of-type {
+  position: relative;
+  height: 65vh;
+  padding-top: 100px;
+  background-color: #f2f6f3;
+  /* background: url("../../assets/bg-banner.png") no-repeat; */
+  background-size: cover;
+  overflow: hidden;
+}
+
+.App-Banner > div:first-of-type .content {
+  position: relative;
+  width: 34%;
+  margin-left: 7%;
+  z-index: 1;
+}
+
+.App-Banner > div:first-of-type h4 {
+  color: #323742;
+  display: flex;
+}
+
+.App-Banner > div:first-of-type h4 span:first-of-type {
+  display: inline-block;
+  width: 18px;
+  margin: auto 0;
+  margin-right: 0.5em;
+  border-bottom: 2px solid #323742;
+}
+
+.App-Banner > div:first-of-type h2 {
+  color: #f16162;
+  font-size: 2.8rem;
+  margin: 0.5em 0;
+}
+
+.App-Banner > div:first-of-type p {
+  letter-spacing: 0.01rem;
+  color: #323742;
+  line-height: 1.25rem;
+}
+
+.App-Banner > div:first-of-type ul {
+  display: flex;
+  margin-top: 1em;
+}
+
+/* .App-Banner > div:first-of-type ul li:first-of-type {
+
+} */
+
+.App-Banner > div:first-of-type ul li:first-of-type a {
+  display: inline-block;
+  text-transform: uppercase;
+  color: #fff;
+  /* color: #7fbcbe; */
+  padding: 0.8em 2em;
+  border: 2px solid #323742;
+  background-color: #323742;
+  border-radius: 35px;
+}
+
+.App-Banner > div:first-of-type ul li:last-of-type {
+  display: flex;
+  margin: auto 1em;
+}
+
+.App-Banner > div:first-of-type ul li:last-of-type > span:nth-child(1) {
+  font-size: 0.75rem;
+  margin: auto 0;
+  height: 14px;
+}
+
+.App-Banner > div:first-of-type ul li:last-of-type > span:nth-child(2) {
+  font-weight: 600;
+  font-size: 2rem;
+  margin: auto 0.1em;
+}
+
+.App-Banner > div:first-of-type ul li:last-of-type > span:nth-child(3) {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  font-size: 0.75rem;
+  margin: auto 0;
+}
+
+.App-Banner
+  > div:first-of-type
+  ul
+  li:last-of-type
+  span:nth-child(3)
+  span:first-of-type {
+  display: inline-block;
+  font-size: 0.675rem;
+  font-weight: 900;
+}
+
+.App-Banner > div:last-of-type {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 86%;
+  margin: 1.5em auto;
+}
+
+.App-Banner > div:last-of-type h3 {
+  font-size: 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+}
+
+.App-Banner > div:last-of-type h3 span:first-of-type {
+  color: #7fbcbe;
+  width: 100%;
+  font-size: 1rem;
+  margin-bottom: 0.5em;
+}
+
+.App-Banner > div:last-of-type p {
+  color: rgb(50, 55, 66, 0.5);
+  margin-top: 1.8em;
+}
+
+.App-Banner > div:last-of-type ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-top: 2em;
+}
+
+.App-Banner > div:last-of-type ul li {
+  font-size: 0.875rem;
+  cursor: move;
+  display: flex;
+  justify-content: space-between;
+  width: 24%;
+  height: 42px;
+  margin: 1em 0;
+  /* padding: 1.8em; */
+}
+
+.App-Banner > div:last-of-type ul li div {
+  display: flex;
+  text-align: center;
+  position: relative;
+  width: 42px;
+  height: 42px;
+  margin-right: 1.6em;
+  /* overflow: hidden; */
+}
+
+.App-Banner > div:last-of-type ul li div span {
+  display: block;
+  position: absolute;
+  width: 42px;
+  height: 42px;
+  /* background-color: rgb(50 55 66 / 0.6); */
+}
+
+.App-Banner > div:last-of-type ul li div span:first-of-type {
+  /* left: 1ems; */
+  background-color: rgba(241, 97, 98, 0.5);
+  border-radius: 25px 24px 22px 42px;
+  transform: rotate(195deg);
+  /* transition: ease-in-out 3s; */
+}
+
+.App-Banner > div:last-of-type ul li div span:last-of-type {
+  top: 0.8em;
+  width: 45px;
+  height: 35px;
+  background-color: rgba(255, 209, 58, 0.5);
+  border-radius: 10px 32px 30px 28px;
+  transform: rotate(20deg);
+  /* transition: ease-in-out 3s; */
+}
+
+.App-Banner > div:last-of-type ul li svg {
+  position: relative;
+  fill: white;
+  margin: auto;
+  margin-left: 0.5em;
+  width: 24px;
+  height: 24px;
+}
+
+.App-Banner > div:last-of-type ul li:hover {
+  border-radius: 15px;
+  box-shadow: 0 3px 25px rgba(0, 0, 0, 0.1);
+  transition: ease-in 1s;
+}
+
+@media (max-width: 50em) {
+  .App-Banner > div:first-of-type {
+    /* background-color: rgba(127, 188, 190, 0.5); */
+    background-color: #f2f6f3;
+    /* background: url("../../assets/bg-ipad.jpg") no-repeat center; */
+    /* background-size: cover; */
+  }
+
+  .App-Banner > div:first-of-type .content {
+    width: 100%;
+    padding: 3em 0;
+  }
+
+  .App-Banner > div:first-of-type .content div:first-of-type {
+    position: relative;
+    width: 55%;
+    z-index: 1;
+  }
+
+  .App-Banner > div:first-of-type h2 {
+    margin: 1em 0 0.3em;
+  }
+
+  .App-Banner > div:first-of-type ul {
+    margin-top: 4em;
+  }
+
+  .App-Banner > div:last-of-type p {
+    margin-top: 1em;
+  }
+
+  .App-Banner > div:first-of-type p {
+    line-height: 1.5rem;
+  }
+
+  .App-Banner > div:last-of-type ul li {
+    width: 48%;
+    margin-bottom: 2em;
+  }
+
+  .App-Banner > div:last-of-type ul li > span {
+    margin: auto 0;
+  }
+
+  .App-Banner .dots {
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .App-Banner .dots span {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 10% 11.5%;
+    background-color: #323742;
+    border-radius: 50%;
+  }
+
+  .App-Banner .dots span:nth-child(2n) {
+    background-color: rgba(241, 97, 98, 1);
+  }
+
+  .App-Banner .dots span:nth-child(2n + 1) {
+    background-color: rgba(255, 209, 58, 1);
+  }
+
+  .App-Banner .dots span:nth-child(1) {
+    width: 145px;
+    height: 145px;
+  }
+
+  .App-Banner .dots span:nth-child(2) {
+    background-color: #323742;
+    width: 45px;
+    height: 45px;
+  }
+
+  .App-Banner .dots span:nth-child(3) {
+    background-color: rgba(127, 188, 190, 1);
+    width: 25px;
+    height: 25px;
+  }
+
+  .App-Banner .dots span:nth-child(4) {
+    width: 125px;
+    height: 125px;
+  }
+}
+
+@media (max-width: 30em) {
+  .App-Banner > div:first-of-type {
+    padding-top: 37px;
+  }
+
+  .App-Banner > div:first-of-type .content {
+    display: flex;
+    width: 84%;
+    height: 100%;
+    padding: 0;
+  }
+
+  .App-Banner > div:first-of-type .content div:first-of-type {
+    margin: auto 0;
+  }
+
+  .App-Banner > div:first-of-type ul li:last-of-type {
+    margin: 0 1em;
+  }
+  .App-Banner > div:first-of-type h2 {
+    font-size: 1.6rem;
+    line-height: 2rem;
+  }
+
+  .App-Banner > div:first-of-type .content div:first-of-type {
+    width: 100%;
+  }
+
+  .App-Banner > div:first-of-type ul {
+    flex-wrap: wrap;
+    margin: 1em 0 0;
+  }
+
+  .App-Banner > div:first-of-type ul li:first-of-type a {
+    font-size: 1rem;
+    margin: auto 0;
+    padding: 0.6em 0.8em;
+  }
+
+  .App-Banner > div:first-of-type p {
+    font-size: 0.875rem;
+    line-height: 1.1rem;
+  }
+
+  /* .App-Banner > div:last-of-type {
+    margin: 3em auto;
+  } */
+
+  .App-Banner > div:last-of-type h3 {
+    font-size: 1.25rem;
+    width: 100%;
+  }
+
+  .App-Banner > div:last-of-type ul li {
+    width: 100%;
+    padding: 1.5em 0;
+    margin-right: 1em;
+  }
+
+  .App-Banner .dots span {
+    margin: 10% 7.5%;
+  }
+}
+
+@media (max-width: 20em) {
+  .App-Banner > div:first-of-type .content {
+    width: 92%;
+  }
+
+  .App-Banner > div:first-of-type {
+    padding-top: 1.5em;
+  }
+
+  .App-Banner > div:first-of-type ul li:first-of-type {
+    margin-bottom: 0;
+  }
+
+  .App-Banner > div:first-of-type ul li:first-of-type a {
+    font-size: 0.875rem;
+    padding: 0.5em 0.5em;
+  }
+
+  .App-Banner > div:first-of-type h2 {
+    font-size: 1.2rem;
+  }
+}
